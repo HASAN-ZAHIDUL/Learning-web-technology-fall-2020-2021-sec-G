@@ -1,115 +1,91 @@
 <html>
 <head>
-	<title>Person profile</title>
+	<title>REGISTRATION</title>
 </head>
 <body>
-	<table border="1" align="center">
-		<tr>
-			<th colspan="3" style="font-size:32px">PERSON PROFILE</font></th>
+	<table border="1" cellspaceing="0px" align="center" width="900px">
+		<tr height="50px">
 			
+		    
+		    <th colspan="3">
+		    	<img src="1.JPG" align="left">
+		    	<a  href="" >Home</a>|
+		    	<a href="">Login</a>|
+		    	<a href="">Registration</a>
+		    </th>
+		    
+   
+		   
 		</tr>
 
-		<tr>
-			<td>Name</td>
-			<td><input type="text" name="Name"> <br/></td>
-
-		</tr>
-
-
-		<tr>
-			<td>Email<br/></td>
-			<td><input type="text" name="Email"> <br></td>
-			
-		</tr>
-		<tr>
-			<td>User Name</td>
-			<td><input type="text" name="User Name"> <br></td>
-
-		</tr>
-		<tr>
-			<td>Password</td>
-			<td><input type="Password" name="Password"> <br></td>
-
-		</tr>
-		<tr>
-			<td>Confirm Password</td>
-			<td><input type="Password" name="Confirm Password"> <br></td>
-
-		</tr>
+		<tr height="100px">
+			<td colspan="3" style="font-size: 13">
+				<form>
+					<fieldset>
+						<legend>
+							<strong>Registration</strong><br/>
+							
 
 
-		<tr>
+						</legend>
+						Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="text" name="name"><hr><br/>
+						Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="text" name="email"><hr><br/>
+						User Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="text" name="User Name"><hr><br>
+						Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="Password" name="Password"><hr> <br>
+						Confirm Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="Password" name="Confirm Password"><hr><br>
+						<form>
+							<fieldset>
+								<legend>
+									Gender
+								</legend>
+								<input type="radio" name="gender">Male 
+		                        <input type="radio" name="gender">Female 
+		                        <input type="radio" name="gender">Other<br/>
 
-			<td>Gender<br/></td>
-			<td>
+							</fieldset><hr>
+						</form>
+						<form>
+							<fieldset>
+								<legend>
+									Date of Birth
+									
+								</legend>
+
+			                    <input type="text" name="date" size="1">
+			                    /
+			                    <input type="text" name="month" size="1">
+			                    /
+			                    <input type="text" name="year" size="1">
+			                    <i>dd/mm/yyyy</i>
+
+							</fieldset><hr>
+						</form>
+						<input type="submit" name="url" value="Submit">&nbsp; 
+		                <input type="reset" name="url" value="Reset">   
 				
-			 
-			    <input type="radio" name="gender">Male 
-		        <input type="radio" name="gender">Female 
-		        <input type="radio" name="gender">Other <br/>
+
+						
+						
+
+						
+
+						
+					</fieldset>
+				</form>
 			</td>
-			
-		</tr>
-
-		<tr>
-			<td>Date of Birth</td>
-			<td>    
-
-
-			 
-			    <input type="text" name="date" size="1">
-			    /
-			    <input type="text" name="month" size="1">
-			    /
-			    <input type="text" name="year" size="1">
-			    <i>dd/mm/yyyy</i>
-			</td>
-			
-		</tr>
-
-		<tr>
-			<td>Blood Group</td>
-			<td>
-				 <select name="skin color">
-			         <option value="">A-</option>
-			         <option value="" selected="selected">A+</option><br/>
-			         <option value="">B-</option> 
-			         <option value="">B+</option> 
-			         <option value="">AB-</option> 
-			         <option value="">AB+</option> 
-			         <option value="">O-</option> 
-			         <option value="">O+</option><br/> 
-			    
-			</td>
-			
-		</tr>
-
-		<tr>
-			<td>Photo</td>
-			<td>
-				<input type="button" name="url" value="Browse..."> 
-			    No file selected
-			</td>
-			
-		</tr>
-
-		<tr>
-			<th colspan="3" style="font-size:32px">&nbsp;</font></th>
-		</tr>
-
-		<tr>
-			<th colspan="3" style="font-size:32px">&nbsp;</font>
-				<input type="submit" name="url" value="Submit">&nbsp; 
-		        <input type="reset" name="url" value="Reset">   
 				
-			</th>
 		</tr>
 
-		<tr>
-			
+
+		
+
+		<tr align="center">
+			<td colspan="3">Copyright © 2017</td>
 		</tr>
 
-		<tr>
-			
-		</tr>
-	</table>
+
+	</table>>
+</body>
+</html>
+
+

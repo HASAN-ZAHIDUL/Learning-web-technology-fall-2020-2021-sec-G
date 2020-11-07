@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Profile Picture</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>
+				Profile Picture
+
+			</legend>
+			 
+			    User Id
+		        <input type="text" name="Name"> <br/>
+			    Picture
+			    <input type="button" name="url" value="Browse..."> 
+			    No file selected.
+			    <hr/>
+			
+		</fieldset>
+		<input type="submit" name="url" value="submit"> <br/>
+		
+		
+	</form>
+</body>
+</html>
